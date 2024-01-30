@@ -1,0 +1,37 @@
+{
+  "name": "ecommerce-csv-converter",
+  "version": "0.0.1",
+  "description": "An application for converting eCommerce CSV formats into other eCommerce CSV formats",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RyanAaronGreen/ecommerce-csv-converter.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "csv",
+    "converter",
+    "shopify",
+    "wix"
+  ],
+  "author": "Ryan Green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanAaronGreen/ecommerce-csv-converter/issues"
+  },
+  "homepage": "https://github.com/RyanAaronGreen/ecommerce-csv-converter#readme",
+  "dependencies": {
+    "csv-generate": "^4.3.1",
+    "csv-parse": "^5.5.3"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.40",
+    "vitest": "^1.2.2"
+  }
+}
